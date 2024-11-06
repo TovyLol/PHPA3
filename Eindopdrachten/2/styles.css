@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px; 
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    background-color: #0073e6; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+/* letter kleur waneer te zien*/
+.card-content.revealed {
+    color: white; 
+}
+
+.card-content.hidden {
+    visibility: hidden; 
+}
+
+.reset-button {
+    padding: 10px 20px;
+    background-color: #005bb5; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.reset-button:hover {
+    background-color: #004080; 
+}
+
+.reset-button-wrapper {
+    margin-top: 50px;
+}

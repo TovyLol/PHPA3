@@ -1,0 +1,1 @@
+Een klasse wordt gebruikt om een object te maken en een object is een instantie van de klasse, je maakt in het object de basis van je klasse
